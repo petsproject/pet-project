@@ -10,7 +10,7 @@ function Login() {
   const [password, setPassword] = useState('');
 
   if (isAuth) {
-    return <Navigate to="/" />;
+    return <Navigate to="/pet-project/" />;
   }
 
   function handleSubmit(e) {
@@ -36,7 +36,7 @@ function Login() {
             <CustomButton text="Авторизоваться" />
           </form>
           <h4 className="form__title">Не зарегистрированы?</h4>
-          <Link to="/register" className="form__link">
+          <Link to="/pet-project/register" className="form__link">
             Регистрация
           </Link>
         </div>

@@ -13,7 +13,7 @@ function Home() {
           <h1 className="home__title">
             Найди нового питомца и забери его из приюта
           </h1>
-          <Link to="/pets" className="home__link">
+          <Link to="/pet-project/pets" className="home__link">
             Посмотреть питомцев
             <img src={linkIcon} className="home__link-img" />
           </Link>
@@ -24,7 +24,7 @@ function Home() {
                 Зарегистрируйте его на нашем сайте и сможете выкладывать
                 объявления, чтобы найти животным новый дом.
               </p>
-              <Link to="/register" className="home__link">
+              <Link to="/pet-project/register" className="home__link">
                 Регистрация
                 <img src={linkIcon} className="home__link-img" />
               </Link>

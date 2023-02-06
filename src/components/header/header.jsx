@@ -31,7 +31,7 @@ function Header() {
   return (
     <header className="header">
       <div className="container header__container">
-        <Link to="/" className="logo">
+        <Link to="/pet-project/" className="logo">
           <img src={logo} className="header__image" />
         </Link>
         <button
@@ -41,18 +41,18 @@ function Header() {
           {buttonText}
         </button>
         <nav className={navClass}>
-          <Link to="/" className="header__link header__link--menu">
+          <Link to="/pet-project/" className="header__link header__link--menu">
             Главная
           </Link>
-          <Link to="/pets" className="header__link">
+          <Link to="/pet-project/pets" className="header__link">
             Посмотреть животных
           </Link>
           {isAuth ? (
             <>
-              <Link to="/pets/add" className="header__link">
+              <Link to="/pet-project/pets/add" className="header__link">
                 Добавить объявление
               </Link>
-              <Link to="/pets/shelter" className="header__link">
+              <Link to="/pet-project/pets/shelter" className="header__link">
                 Животные приюта
               </Link>
               <button className="header__button header__button--logout">
@@ -60,7 +60,7 @@ function Header() {
               </button>
             </>
           ) : (
-            <Link to="/register" className="header__link">
+            <Link to="/pet-project/register" className="header__link">
               Зарегистрировать приют
             </Link>
           )}

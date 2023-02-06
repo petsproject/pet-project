@@ -9,7 +9,7 @@ function PetCard({
   gender = 'girl',
   text = 'Идеальная, послушная и умная юная девочка',
   id = '1',
-  phone = '89178954181',
+  phone = '89178122111',
   isDelitable = false,
 }) {
   const genderObj =
@@ -36,7 +36,7 @@ function PetCard({
       </div>
       <div className="ped__card-links">
         <Link
-          to={`/pets/${id}`}
+          to={`/pet-project/pets/${id}`}
           className="pet__card-link pet__card-link--left"
         >
           Подробнее

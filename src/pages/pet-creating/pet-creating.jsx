@@ -16,7 +16,7 @@ function PetCreating() {
   const [gender, setGender] = useState('');
 
   if (!isAuth) {
-    return <Navigate to="/" />;
+    return <Navigate to="/pet-project/" />;
   }
 
   function handleSubmit(e) {

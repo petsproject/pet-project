@@ -13,11 +13,11 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/pets" element={<PetsPage />} />
-        <Route path="/register" element={<Registration />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/pets/add" element={<PetCreating />} />
+        <Route path="/pet-project/" element={<Home />} />
+        <Route path="/pet-project/pets" element={<PetsPage />} />
+        <Route path="/pet-project/register" element={<Registration />} />
+        <Route path="/pet-project/login" element={<Login />} />
+        <Route path="/pet-project/pets/add" element={<PetCreating />} />
       </Routes>
       <Footer />
     </>

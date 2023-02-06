@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container footer__container">
-        <Link to="/" className="logo">
+        <Link to="/pet-project/" className="logo">
           <img src={logo} className="foooter__logo" />
         </Link>
       </div>

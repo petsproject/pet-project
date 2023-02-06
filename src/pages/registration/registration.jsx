@@ -13,7 +13,7 @@ function Registration() {
   const [password, setPassword] = useState('');
 
   if (isAuth) {
-    return <Navigate to="/" />;
+    return <Navigate to="/pet-project/" />;
   }
 
   function handleSubmit(e) {
@@ -54,7 +54,7 @@ function Registration() {
             <CustomButton text="Зарегистрироваться" />
           </form>
           <h4 className="form__title">Уже зарегистрированы?</h4>
-          <Link to="/login" className="form__link">
+          <Link to="/pet-project/login" className="form__link">
             Авторизация
           </Link>
         </div>
